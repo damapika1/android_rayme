@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/bottom_nav_user_home"
+            android:enabled="true"
+            android:icon="@drawable/ic_home_icon"
+            android:title="Profiel"/>
+
+    <item
+            android:id="@+id/bottom_nav_calendar"
+            android:enabled="true"
+            android:icon="@drawable/ic_calendar_icon"
+            android:title="Planning"/>
+
+    <item
+            android:id="@+id/bottom_nav_stats"
+            android:enabled="true"
+            android:icon="@drawable/ic_stats_icon"
+            android:title="Statistieken"/>
+</menu>

@@ -1,0 +1,623 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Dolor facilis consectetur.",
+      "startsAt": "2022-12-22T17:10:09.413153",
+      "endsAt": "2022-12-22T18:50:09.413153",
+      "workoutType": 0,
+      "trainees": [
+        {
+          "id": 1,
+          "firstName": "Abbie",
+          "lastName": "Pfannerstill",
+          "email": "Tara_Hessel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 3,
+          "firstName": "Halie",
+          "lastName": "Ferry",
+          "email": "Dwight.Volkman@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 5,
+          "firstName": "Rubie",
+          "lastName": "Hintz",
+          "email": "Nellie_Armstrong66@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 12,
+          "firstName": "admin",
+          "lastName": "admin",
+          "email": "admin@mail.com",
+          "address": null,
+          "phoneNumber": null,
+          "role": 2,
+          "activePricePlan": null
+        },
+        {
+          "id": 11
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 2,
+      "title": "Eveniet minus et cupiditate.",
+      "startsAt": "2022-12-23T17:10:09.417217",
+      "endsAt": "2022-12-23T18:50:09.417217",
+      "workoutType": 0,
+      "trainees": [
+        {
+          "id": 9,
+          "firstName": "Kristin",
+          "lastName": "Sipes",
+          "email": "Pat_Bradtke@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 3,
+      "title": "Voluptas est illum placeat.",
+      "startsAt": "2023-01-31T17:10:09.417296",
+      "endsAt": "2023-01-31T18:50:09.417296",
+      "workoutType": 1,
+      "trainees": [],
+      "exercises": []
+    },
+    {
+      "id": 4,
+      "title": "Voluptas dicta rerum consequatur aut.",
+      "startsAt": "2023-01-07T17:10:09.417309",
+      "endsAt": "2023-01-07T18:50:09.417309",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 3,
+          "firstName": "Halie",
+          "lastName": "Ferry",
+          "email": "Dwight.Volkman@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 7,
+          "firstName": "Manuel",
+          "lastName": "Wyman",
+          "email": "Luther_Towne13@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 8,
+          "firstName": "Electa",
+          "lastName": "Pacocha",
+          "email": "Jan24@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 5,
+      "title": "Tenetur excepturi dolorum esse suscipit delectus iusto dolores voluptas.",
+      "startsAt": "2022-12-18T17:10:09.417327",
+      "endsAt": "2022-12-18T18:50:09.417327",
+      "workoutType": 0,
+      "trainees": [
+        {
+          "id": 1,
+          "firstName": "Abbie",
+          "lastName": "Pfannerstill",
+          "email": "Tara_Hessel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 4,
+          "firstName": "Anika",
+          "lastName": "Deckow",
+          "email": "Dixie.Howe@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 6,
+          "firstName": "Bennett",
+          "lastName": "Hansen",
+          "email": "Miguel_Langworth@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 12,
+          "firstName": "admin",
+          "lastName": "admin",
+          "email": "admin@mail.com",
+          "address": null,
+          "phoneNumber": null,
+          "role": 2,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 6,
+      "title": "Tempore beatae explicabo nulla.",
+      "startsAt": "2023-01-25T17:10:09.417348",
+      "endsAt": "2023-01-25T18:50:09.417348",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 1,
+          "firstName": "Abbie",
+          "lastName": "Pfannerstill",
+          "email": "Tara_Hessel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 2,
+          "firstName": "Lucio",
+          "lastName": "Jast",
+          "email": "Arturo.Daniel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 6,
+          "firstName": "Bennett",
+          "lastName": "Hansen",
+          "email": "Miguel_Langworth@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 9,
+          "firstName": "Kristin",
+          "lastName": "Sipes",
+          "email": "Pat_Bradtke@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 7,
+      "title": "Dolor facere dolorem quis.",
+      "startsAt": "2022-12-21T17:10:09.41736",
+      "endsAt": "2022-12-21T18:50:09.41736",
+      "workoutType": 0,
+      "trainees": [
+        {
+          "id": 1,
+          "firstName": "Abbie",
+          "lastName": "Pfannerstill",
+          "email": "Tara_Hessel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 2,
+          "firstName": "Lucio",
+          "lastName": "Jast",
+          "email": "Arturo.Daniel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 7,
+          "firstName": "Manuel",
+          "lastName": "Wyman",
+          "email": "Luther_Towne13@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 10,
+          "firstName": "Frederic",
+          "lastName": "Batz",
+          "email": "Claude_Champlin@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 8,
+      "title": "Consectetur nemo tempore doloribus facilis illo.",
+      "startsAt": "2022-12-28T17:10:09.417368",
+      "endsAt": "2022-12-28T18:50:09.417368",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 3,
+          "firstName": "Halie",
+          "lastName": "Ferry",
+          "email": "Dwight.Volkman@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 9,
+          "firstName": "Kristin",
+          "lastName": "Sipes",
+          "email": "Pat_Bradtke@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 10,
+          "firstName": "Frederic",
+          "lastName": "Batz",
+          "email": "Claude_Champlin@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 9,
+      "title": "Dignissimos ad rerum nisi rerum rem eligendi.",
+      "startsAt": "2022-12-12T17:10:09.41738",
+      "endsAt": "2022-12-12T18:50:09.41738",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 1,
+          "firstName": "Abbie",
+          "lastName": "Pfannerstill",
+          "email": "Tara_Hessel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 4,
+          "firstName": "Anika",
+          "lastName": "Deckow",
+          "email": "Dixie.Howe@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 8,
+          "firstName": "Electa",
+          "lastName": "Pacocha",
+          "email": "Jan24@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 12,
+          "firstName": "admin",
+          "lastName": "admin",
+          "email": "admin@mail.com",
+          "address": null,
+          "phoneNumber": null,
+          "role": 2,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 10,
+      "title": "Amet quaerat et exercitationem.",
+      "startsAt": "2023-01-30T17:10:09.417393",
+      "endsAt": "2023-01-30T18:50:09.417393",
+      "workoutType": 1,
+      "trainees": [],
+      "exercises": []
+    },
+    {
+      "id": 11,
+      "title": "Explicabo corrupti fugit vero delectus necessitatibus excepturi distinctio esse aut.",
+      "startsAt": "2023-01-25T17:10:09.417409",
+      "endsAt": "2023-01-25T18:50:09.417409",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 8,
+          "firstName": "Electa",
+          "lastName": "Pacocha",
+          "email": "Jan24@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 9,
+          "firstName": "Kristin",
+          "lastName": "Sipes",
+          "email": "Pat_Bradtke@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 12,
+      "title": "Eum ex in sed omnis cum omnis.",
+      "startsAt": "2023-01-15T17:10:09.417417",
+      "endsAt": "2023-01-15T18:50:09.417417",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 7,
+          "firstName": "Manuel",
+          "lastName": "Wyman",
+          "email": "Luther_Towne13@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 13,
+      "title": "Doloribus natus molestias aut optio repudiandae eaque voluptatem voluptatem.",
+      "startsAt": "2022-12-28T17:10:09.417426",
+      "endsAt": "2022-12-28T18:50:09.417426",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 2,
+          "firstName": "Lucio",
+          "lastName": "Jast",
+          "email": "Arturo.Daniel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 9,
+          "firstName": "Kristin",
+          "lastName": "Sipes",
+          "email": "Pat_Bradtke@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 14,
+      "title": "Ea animi est voluptas assumenda sed atque consequuntur ullam inventore.",
+      "startsAt": "2023-02-06T17:10:09.417441",
+      "endsAt": "2023-02-06T18:50:09.417441",
+      "workoutType": 1,
+      "trainees": [],
+      "exercises": []
+    },
+    {
+      "id": 15,
+      "title": "Rerum optio similique eum commodi dolor.",
+      "startsAt": "2022-12-13T17:10:09.417455",
+      "endsAt": "2022-12-13T18:50:09.417455",
+      "workoutType": 1,
+      "trainees": [],
+      "exercises": []
+    },
+    {
+      "id": 16,
+      "title": "Est id iste occaecati.",
+      "startsAt": "2023-01-12T17:10:09.417474",
+      "endsAt": "2023-01-12T18:50:09.417474",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 10,
+          "firstName": "Frederic",
+          "lastName": "Batz",
+          "email": "Claude_Champlin@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 17,
+      "title": "Itaque eum cumque voluptatibus veritatis.",
+      "startsAt": "2022-12-31T17:10:09.417493",
+      "endsAt": "2022-12-31T18:50:09.417493",
+      "workoutType": 1,
+      "trainees": [
+        {
+          "id": 1,
+          "firstName": "Abbie",
+          "lastName": "Pfannerstill",
+          "email": "Tara_Hessel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 6,
+          "firstName": "Bennett",
+          "lastName": "Hansen",
+          "email": "Miguel_Langworth@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 12,
+          "firstName": "admin",
+          "lastName": "admin",
+          "email": "admin@mail.com",
+          "address": null,
+          "phoneNumber": null,
+          "role": 2,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 18,
+      "title": "Minus ea aliquam adipisci dolores autem.",
+      "startsAt": "2023-01-06T17:10:09.41751",
+      "endsAt": "2023-01-06T18:50:09.41751",
+      "workoutType": 0,
+      "trainees": [
+        {
+          "id": 2,
+          "firstName": "Lucio",
+          "lastName": "Jast",
+          "email": "Arturo.Daniel@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 4,
+          "firstName": "Anika",
+          "lastName": "Deckow",
+          "email": "Dixie.Howe@gmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 6,
+          "firstName": "Bennett",
+          "lastName": "Hansen",
+          "email": "Miguel_Langworth@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 7,
+          "firstName": "Manuel",
+          "lastName": "Wyman",
+          "email": "Luther_Towne13@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": 19,
+      "title": "Natus aut aliquid et perferendis ut velit quia.",
+      "startsAt": "2023-02-04T17:10:09.417567",
+      "endsAt": "2023-02-04T18:50:09.417567",
+      "workoutType": 1,
+      "trainees": [],
+      "exercises": []
+    },
+    {
+      "id": 20,
+      "title": "Dolore sapiente voluptatem omnis rerum fugit itaque quia.",
+      "startsAt": "2023-01-16T17:10:09.417586",
+      "endsAt": "2023-01-16T18:50:09.417586",
+      "workoutType": 0,
+      "trainees": [
+        {
+          "id": 6,
+          "firstName": "Bennett",
+          "lastName": "Hansen",
+          "email": "Miguel_Langworth@hotmail.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        },
+        {
+          "id": 8,
+          "firstName": "Electa",
+          "lastName": "Pacocha",
+          "email": "Jan24@yahoo.com",
+          "address": "4455 Stad Straat",
+          "phoneNumber": "0470/123456",
+          "role": 0,
+          "activePricePlan": null
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "totalAmount": 20
+}

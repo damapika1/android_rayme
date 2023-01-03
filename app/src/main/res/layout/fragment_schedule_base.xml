@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.sessions.ScheduleBaseFragment">
+
+    <ImageView
+        android:id="@+id/squads_logo"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Squads logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_squads_white" />
+
+    <TextView
+        android:id="@+id/countdownLabel"
+        style="@style/TextAppearance.Squads.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="@string/next_session"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/squads_logo" />
+
+    <TextView
+        android:id="@+id/countDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="00:00:00"
+        style="@style/TextAppearance.Squads.Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countdownLabel" />
+
+    <LinearLayout
+        android:id="@+id/plannedSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countDown">
+
+        <ImageView
+            android:id="@+id/plannedIcon"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/ic_baseline_event_available_24" />
+
+        <TextView
+            android:id="@+id/plannedLabel"
+            style="@style/TextAppearance.Squads.Label.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/planned_sessions" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upcomingSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countDown">
+
+        <ImageView
+            android:id="@+id/upcomingIcon"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/ic_baseline_event_24" />
+
+        <TextView
+            android:id="@+id/upcomingLabel"
+            style="@style/TextAppearance.Squads.Label.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upcoming_sessions" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:theme="@style/ProgressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countdownLabel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

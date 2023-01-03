@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/Widget.Squads.TextInputLayout"
+        android:id="@+id/report_Date"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:hint="date"
+        android:padding="12dp"
+        android:paddingTop="20dp"
+        android:drawablePadding="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@id/report_Weight"
+        />
+
+    <TextView
+            style="@style/Widget.Squads.TextInputLayout"
+            android:id="@+id/report_Weight"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:hint="  "
+            android:padding="12dp"
+            android:paddingTop="20dp"
+            android:drawablePadding="16dp"
+            android:layout_toStartOf="@id/report_FatPercent"
+            />
+
+    <TextView
+            style="@style/Widget.Squads.TextInputLayout"
+            android:id="@+id/report_FatPercent"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:hint="  "
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:layout_toStartOf="@id/report_Waist"
+            />
+
+    <TextView
+            style="@style/Widget.Squads.TextInputLayout"
+            android:id="@+id/report_Waist"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:hint="  "
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:layout_toStartOf="@id/report_MusclePercent"
+            />
+
+    <TextView
+            style="@style/Widget.Squads.TextInputLayout"
+            android:id="@+id/report_MusclePercent"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:hint="  "
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:layout_alignParentEnd="true"
+            />
+
+</RelativeLayout>

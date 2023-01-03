@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/colorPrimary">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/backAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorSecondary"
+            android:clickable="true"
+            android:scrollbarThumbHorizontal="@color/colorSecondary"
+            android:scrollbarThumbVertical="@color/colorSecondary"
+            android:theme="@style/Widget.Squads.Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+            app:title="@string/details"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:gravity="left"
+            app:layout_constraintTop_toBottomOf="@+id/backAppBar"
+            android:backgroundTint="@color/colorPrimary"
+            tools:layout_editor_absoluteX="8dp">
+
+            <ImageView
+                android:id="@+id/workoutIcon"
+                android:layout_width="80dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="36dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrimary"
+                app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+            <TextView
+                android:id="@+id/workoutType"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                style="@style/TextAppearance.Squads.SubTitle.Dark"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/edit_user"
+                android:textAppearance="?attr/textAppearanceBody1"/>
+
+            <EditText
+                android:id="@+id/firstNameInput"
+                android:layout_width="300dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginStart="26dp"
+                android:textColor="@color/colorPrimaryDark2"
+                android:hint="@string/first_name"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/lastNameInput"
+                android:hint="@string/last_name"
+                android:textColor="@color/colorPrimaryDark2"
+                android:layout_width="300dp"
+                android:layout_marginStart="26dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:hint="@string/email"
+                android:textColor="@color/colorPrimaryDark2"
+                android:layout_width="300dp"
+                android:layout_marginStart="26dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/phoneInput"
+                android:textColor="@color/colorPrimaryDark2"
+                android:hint="@string/phone"
+                android:layout_width="300dp"
+                android:layout_marginStart="26dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/addressInput"
+                android:hint="@string/address"
+                android:textColor="@color/colorPrimaryDark2"
+                android:layout_width="300dp"
+                android:layout_marginStart="26dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPostalAddress" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:text="@string/save"
+            android:textAppearance="@style/TextAppearance.Squads.SubTitle"
+            android:textColor="@color/colorPrimary"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:iconSize="30dp"
+            app:iconTint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rippleColor="@color/backgroundColor" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

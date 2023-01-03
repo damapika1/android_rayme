@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Squads</string>
+    <string name="app_logo_content_description">Squads logo</string>
+    <string name="login_text">Inloggen</string>
+    <string name="extended_fab_content_desc">join button</string>
+    <string name="fab_content_desc">join button</string>
+    <string name="oefeningen">Oefeningen</string>
+    <string name="trainees">Aantal deelnemers</string>
+    <string name="exercises">Oefeningen</string>
+    <string name="session_title">Sessie titel</string>
+    <string name="join_button">Inschrijven</string>
+    <string name="leave_session">Uitschrijven</string>
+    <string name="aantal_trainees">0 / 6</string>
+    <string name="subscription">abonnement</string>
+    <string name="subscription_expiry">Geldig tot: </string>
+    <string name="no_subscription">Geen abonnement</string>
+    <string name="create_subscription">Abonnement aangaan</string>
+    <string name="still">nog</string>
+    <string name="days_valid">dagen geldig</string>
+    <string name="turncard">beurtenkaart</string>
+    <string name="turns_left">beurten over</string>
+    <string name="turns_left_label">Beurten over</string>
+    <string name="expiry_date">Vervaldatum</string>
+    <string name="new_expiry_date">Nieuwe vervaldatum</string>
+    <string name="new_turns_left">Nieuw aantal beurten</string>
+    <string name="price">Prijs</string>
+    <string name="activate">Activeer</string>
+    <string name="next_session">Volgende Sessie</string>
+    <string name="planned_sessions">Gepland</string>
+    <string name="upcoming_sessions">Plan Sessie</string>
+    <string name="nothing_planned">Geen Sessie Gepland</string>
+    <string name="start">Start!</string>
+    <string name="sessions">%1s Sessies</string>
+    <string name="edit_user">Gegevens Aanpassen</string>
+    <string name="save">Opslaan</string>
+    <string name="first_name">Voornaam</string>
+    <string name="last_name">Achternaam</string>
+    <string name="email">e-mail</string>
+    <string name="phone">Telefoonnummer</string>
+    <string name="address">Adres</string>
+    <string name="details">Gegevens</string>
+
+    <plurals name="numberOfDays">
+        <item quantity="zero">Vervallen</item>
+        <item quantity="one">Nog %d dag geldig</item>
+        <item quantity="other">Nog %d dagen geldig</item>
+    </plurals>
+
+    <plurals name="numberOfTurns">
+        <item quantity="one">Nog %d beurt over</item>
+        <item quantity="other">Nog %d beurten over</item>
+    </plurals>
+
+    <string name="app_username_required">Gebruikersnaam is verplicht</string>
+    <string name="app_password_format_invalid">Minstens 4 karakters!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

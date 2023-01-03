@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph_calendar"
+    app:startDestination="@id/scheduleBaseFragmentCalendar">
+    <fragment
+            android:id="@+id/calendarFragment"
+            android:name="com.hogent.squads.view.sessions.CalendarFragment"
+            android:label="fragment_calendar"
+            tools:layout="@layout/fragment_calendar">
+        <action
+            android:id="@+id/action_calendarFragment_to_sessionViewFragment"
+            app:destination="@id/sessionViewFragment" />
+        <argument
+            android:name="userSessionsOnly"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/scheduleBaseFragmentCalendar"
+        android:name="com.hogent.squads.view.sessions.ScheduleBaseFragment"
+        android:label="fragment_schedule_base_calendar"
+        tools:layout="@layout/fragment_schedule_base" >
+        <action
+            android:id="@+id/action_scheduleBaseFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sessionViewFragment"
+        android:name="com.hogent.squads.view.sessions.SessionViewFragment"
+        android:label="SessionViewFragment" >
+        <action
+            android:id="@+id/action_sessionViewFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+        <argument
+            android:name="sessionId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

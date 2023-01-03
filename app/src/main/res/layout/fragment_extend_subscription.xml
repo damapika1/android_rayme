@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ExtendSubscriptionFragment"
+    android:backgroundTint="@color/colorPrimary">
+    <TextView
+        android:id="@+id/expiryDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Squads.Label"
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/expiry_date" />
+
+    <TextView
+        android:id="@+id/expiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="04-06-2022"
+        style="@style/TextAppearance.Squads.Title.Dark"/>
+
+    <TextView
+        android:id="@+id/newExpiryDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Squads.Label"
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/new_expiry_date" />
+
+    <TextView
+        android:id="@+id/newExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="04-06-2022"
+        style="@style/TextAppearance.Squads.Title.Dark"/>
+
+    <TextView
+        android:id="@+id/priceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Squads.Label"
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/price" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="80€"
+        style="@style/TextAppearance.Squads.Title.Dark" />
+</LinearLayout>

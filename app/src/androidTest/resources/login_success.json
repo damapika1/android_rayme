@@ -1,0 +1,19 @@
+{
+  "token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlckBtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMTEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDdXN0b21lciIsImV4cCI6MTY3MTIwMDM0Mn0.iO7xZ6pHRY2AvqUz74mN39TjZd21XvkBQdIjcoASqW_DU6byihiSp_qs9Xsy35zEjG1ov4YZvHBacuOFIOWShw",
+  "user": {
+    "id": 11,
+    "firstName": "user",
+    "lastName": "user",
+    "email": "user@mail.com",
+    "address": null,
+    "phoneNumber": null,
+    "role": 0,
+    "activePricePlan": {
+      "id": 1,
+      "name": "default",
+      "subscriptionPrice": 75.14,
+      "turnPrice": 6.78,
+      "endDate": null
+    }
+  }
+}
