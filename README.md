@@ -53,5 +53,5 @@ This app uses [MVVM (Model View View-Model)] architecture.
 5. **utils**: Utility classes.
 
 ### Testing creditentials:
-1. **username**: user@mail.com
-2. **password**: password
+- **username**: user@mail.com
+- **password**: password
