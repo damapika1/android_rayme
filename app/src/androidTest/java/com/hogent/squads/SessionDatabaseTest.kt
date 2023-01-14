@@ -8,6 +8,8 @@ import androidx.test.platform.app.InstrumentationRegistry
 import com.hogent.squads.model.database.SessionDao
 import com.hogent.squads.model.database.SquadsDatabase
 import com.hogent.squads.model.domain.Session
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Assert.assertEquals
@@ -58,9 +60,13 @@ class SessionDatabaseTest {
             0,
             null
         )
-        sessionDao.insert(session)
-        val sessionResult = sessionDao.getSession()
-        assertEquals("titel", sessionResult?.title)
+        runBlocking {
+            sessionDao.insert(session)
+
+            val sessionResult = sessionDao.getSession()
+
+            assertEquals("titel", sessionResult?.title)
+        }
     }
 
     @Test
@@ -78,8 +84,9 @@ class SessionDatabaseTest {
         )
 
         session.joinSession("11")
-
-        sessionDao.insert(session)
+        runBlocking {
+            sessionDao.insert(session)
+        }
         var sessionResult: LiveData<Session>
         runBlocking {
             sessionResult = sessionDao.getSessionLiveDataById(1)

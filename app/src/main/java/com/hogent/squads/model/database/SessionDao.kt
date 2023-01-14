@@ -22,22 +22,22 @@ interface SessionDao {
     suspend fun getSessionById(sessionId: Int): Session
 
     @Delete
-    fun delete(session: Session)
+    suspend fun delete(session: Session)
 
     @Query("DELETE FROM Sessions WHERE EndsAt < :dateBefore")
     suspend fun deleteBeforeDate(dateBefore:LocalDateTime)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insert(session: Session)
+    suspend fun insert(session: Session)
 
     @Update
-    fun update(session: Session)
+    suspend fun update(session: Session)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertData(data: List<Session>)
 
     @Query("SELECT * FROM Sessions ORDER BY sessionId DESC LIMIT 1")
-    fun getSession(): Session?
+    suspend fun getSession(): Session?
 
     @Query("DELETE FROM Sessions")
     suspend fun deleteAll()

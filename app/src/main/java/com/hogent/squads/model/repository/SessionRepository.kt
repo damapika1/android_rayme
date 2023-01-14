@@ -38,7 +38,7 @@ class SessionRepository @Inject constructor(
         sessionDao.insertData(sessions)
     }
 
-    fun saveSession(session: Session){
+    suspend fun saveSession(session: Session){
         sessionDao.insert(session)
     }
 
