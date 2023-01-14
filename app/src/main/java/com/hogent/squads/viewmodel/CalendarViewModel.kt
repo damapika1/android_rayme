@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.hogent.squads.TokenSessionManager
-import com.hogent.squads.model.SessionRepository
-import com.hogent.squads.model.UserRepository
+import com.hogent.squads.utils.TokenSessionManager
+import com.hogent.squads.model.repository.SessionRepository
+import com.hogent.squads.model.repository.UserRepository
 import com.hogent.squads.model.domain.Session
 import com.hogent.squads.model.network.rest.resources.JoinRequest
 import com.hogent.squads.model.network.rest.resources.JoinSessionResponse

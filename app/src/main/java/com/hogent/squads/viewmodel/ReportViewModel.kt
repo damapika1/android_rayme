@@ -3,9 +3,9 @@ package com.hogent.squads.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.hogent.squads.TokenSessionManager
-import com.hogent.squads.model.ReportRepository
-import com.hogent.squads.model.UserRepository
+import com.hogent.squads.utils.TokenSessionManager
+import com.hogent.squads.model.repository.ReportRepository
+import com.hogent.squads.model.repository.UserRepository
 import com.hogent.squads.model.domain.Report
 import com.hogent.squads.model.network.rest.resources.ReportsResponse
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -44,3 +44,14 @@
 This app uses [MVVM (Model View View-Model)] architecture.
 
 ![alt text](https://github.com/KadirKuruca/NewsApp-MVVM-Hilt-Room-Retrofit/blob/master/mvvm_architecture.png?raw=true)
+
+#### The app has following packages:
+1. **model**: business logic and data: It contains all the data accessing and manipulating components.
+2. **di**: Dependency providing classes using Dagger.
+3. **view**: presentation: View classes.
+4. **viewmodel**: presentation logic: ViewModels to store and manage the data so it is ready to be presented.
+5. **utils**: Utility classes.
+
+### Testing creditentials:
+1. **username**: user@mail.com
+2. **password**: password

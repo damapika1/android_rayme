@@ -1,4 +1,4 @@
-package com.hogent.squads.view
+package com.hogent.squads.view.login
 
 import android.os.Bundle
 import android.view.LayoutInflater

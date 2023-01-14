@@ -1,4 +1,4 @@
-package com.hogent.squads.view
+package com.hogent.squads.view.subscriptions
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import com.hogent.squads.databinding.FragmentExtendSubscriptionBinding
-import timber.log.Timber
 import java.text.DecimalFormat
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -18,7 +17,7 @@ class ExtendSubscriptionFragment() : DialogFragment() {
         fun onDeclineExtension()
     }
 
-    var listener:ExtendListener? = null
+    var listener: ExtendListener? = null
         get() = field
         set(value) { field = value }
 

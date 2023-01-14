@@ -1,9 +1,7 @@
 package com.hogent.squads.view.userhome
 
 import android.graphics.Color
-import android.graphics.ColorFilter
 import android.graphics.drawable.ColorDrawable
-import android.opengl.Visibility
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,19 +10,17 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import com.google.android.material.snackbar.Snackbar
 import com.hogent.squads.R
 import com.hogent.squads.databinding.FragmentUserHomeBinding
 import com.hogent.squads.model.domain.Subscription
 import com.hogent.squads.model.domain.User
-import com.hogent.squads.view.ExtendSubscriptionFragment
-import com.hogent.squads.view.IncreaseTurnsFragment
+import com.hogent.squads.view.subscriptions.ExtendSubscriptionFragment
+import com.hogent.squads.view.turns.IncreaseTurnsFragment
 import com.hogent.squads.viewmodel.CalendarViewModel
 import com.hogent.squads.viewmodel.UserViewModel
 import com.squareup.picasso.Picasso
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
-import java.net.ConnectException
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit

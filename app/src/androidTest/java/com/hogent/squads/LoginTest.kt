@@ -12,6 +12,7 @@ import androidx.test.filters.LargeTest
 import com.hogent.squads.config.MockServerDispatcher
 import com.hogent.squads.model.database.UserDao
 import com.hogent.squads.model.domain.User
+import com.hogent.squads.di.module.BaseUrlModule
 import com.hogent.squads.view.MainActivity
 import dagger.Module
 import dagger.Provides

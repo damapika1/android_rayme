@@ -1,4 +1,4 @@
-package com.hogent.squads
+package com.hogent.squads.di.module
 
 import android.app.Application
 import com.hogent.squads.model.database.ReportDao

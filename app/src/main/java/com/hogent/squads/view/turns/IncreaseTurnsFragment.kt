@@ -1,4 +1,4 @@
-package com.hogent.squads.view
+package com.hogent.squads.view.turns
 
 import android.app.Dialog
 import android.os.Bundle
@@ -14,7 +14,7 @@ class IncreaseTurnsFragment() : DialogFragment() {
         fun onDeclineIncrease()
     }
 
-    var listener:IncreaseListener? = null
+    var listener: IncreaseListener? = null
         get() = field
         set(value) { field = value }
 

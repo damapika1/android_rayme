@@ -1,8 +1,8 @@
-package com.hogent.squads.model
+package com.hogent.squads.model.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.hogent.squads.TokenSessionManager
+import com.hogent.squads.utils.TokenSessionManager
 import com.hogent.squads.model.database.UserDao
 import com.hogent.squads.model.domain.Subscription
 import com.hogent.squads.model.domain.User

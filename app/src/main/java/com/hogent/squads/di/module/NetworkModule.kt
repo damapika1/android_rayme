@@ -1,4 +1,4 @@
-package com.hogent.squads
+package com.hogent.squads.di.module
 
 import com.hogent.squads.model.network.rest.*
 import dagger.Module

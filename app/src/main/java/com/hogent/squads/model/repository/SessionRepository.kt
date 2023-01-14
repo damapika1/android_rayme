@@ -1,4 +1,4 @@
-package com.hogent.squads.model
+package com.hogent.squads.model.repository
 
 import androidx.lifecycle.LiveData
 import com.hogent.squads.model.database.SessionDao

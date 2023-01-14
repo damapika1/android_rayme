@@ -1,4 +1,4 @@
-package com.hogent.squads
+package com.hogent.squads.utils
 
 import android.content.Context
 import androidx.startup.Initializer

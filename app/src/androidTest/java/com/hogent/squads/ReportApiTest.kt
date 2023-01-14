@@ -10,6 +10,7 @@ import com.hogent.squads.model.domain.PricePlan
 import com.hogent.squads.model.domain.User
 import com.hogent.squads.model.network.rest.ReportApiService
 import com.hogent.squads.model.network.rest.resources.ReportsResponse
+import com.hogent.squads.di.module.BaseUrlModule
 import com.hogent.squads.view.MainActivity
 import dagger.Module
 import dagger.Provides

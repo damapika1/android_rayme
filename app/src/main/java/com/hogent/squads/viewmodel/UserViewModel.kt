@@ -6,25 +6,18 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.android.material.snackbar.Snackbar
-import com.hogent.squads.model.UserRepository
+import com.hogent.squads.model.repository.UserRepository
 import com.hogent.squads.model.domain.Subscription
 import com.hogent.squads.model.domain.User
 import com.hogent.squads.model.network.rest.resources.LoginRequest
 import com.hogent.squads.model.network.rest.resources.LoginResponse
-import com.hogent.squads.view.ExtendSubscriptionFragment
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import okhttp3.ResponseBody
-import okhttp3.internal.wait
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import timber.log.Timber
-import java.lang.Thread.sleep
-import java.net.ConnectException
-import java.time.LocalDate
 import javax.inject.Inject
-import kotlin.math.exp
 
 @HiltViewModel
 class UserViewModel @Inject constructor(private val userRepository: UserRepository) : ViewModel() {

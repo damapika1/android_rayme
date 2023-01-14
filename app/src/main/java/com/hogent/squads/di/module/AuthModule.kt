@@ -1,5 +1,7 @@
-package com.hogent.squads
+package com.hogent.squads.di.module
 
+import com.hogent.squads.utils.AuthInterceptor
+import com.hogent.squads.utils.TokenSessionManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

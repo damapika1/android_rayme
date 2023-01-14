@@ -1,8 +1,9 @@
-package com.hogent.squads
+package com.hogent.squads.utils
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.hogent.squads.ContextProvider.Companion.applicationContext
+import com.hogent.squads.R
+import com.hogent.squads.utils.ContextProvider.Companion.applicationContext
 
 /**
  * Session manager to save and fetch data from SharedPreferences
