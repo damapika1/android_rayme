@@ -72,12 +72,13 @@
                 android:layout_height="wrap_content">
 
             <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.Squads.Button"
-                    android:id="@+id/loginButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:text="Inloggen"/>
+                android:id="@+id/loginButton"
+                style="@style/Widget.Squads.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Inloggen"
+                app:shapeAppearance="@style/Widget.Squads.Button" />
 
         </RelativeLayout>
 

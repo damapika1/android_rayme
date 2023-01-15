@@ -83,7 +83,7 @@ class SessionViewFragment : Fragment() {
                             )
                         )
                         Snackbar.make(
-                            it, "You have left the session!",
+                            it, "U hebt de sessie verlaten!",
                             Snackbar.LENGTH_LONG
                         ).show()
                         navController.popBackStack()
@@ -95,7 +95,7 @@ class SessionViewFragment : Fragment() {
                             )
                         )
                         Snackbar.make(
-                            it, "You have joined the session!",
+                            it, "U bent ingeschreven in de sessie!",
                             Snackbar.LENGTH_LONG).show()
                         navController.popBackStack()
                     }

@@ -30,48 +30,48 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center"
         android:layoutDirection="ltr"
         android:orientation="vertical"
-        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/backAppBar"
-        android:backgroundTint="@color/colorPrimary"
         tools:layout_editor_absoluteX="8dp">
 
         <ImageView
             android:id="@+id/workoutIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorPrimary"
             android:layout_marginTop="36dp"
+            android:backgroundTint="@color/colorPrimary"
             app:srcCompat="@mipmap/ic_workout_dark_foreground" />
 
         <TextView
             android:id="@+id/workoutType"
+            style="@style/TextAppearance.Squads.SubTitle.Dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            style="@style/TextAppearance.Squads.SubTitle.Dark"
             android:backgroundTint="@color/colorPrimary"
             android:text="Workout type"
-            android:textAppearance="?attr/textAppearanceBody1"/>
+            android:textAppearance="?attr/textAppearanceBody1" />
 
         <TextView
             android:id="@+id/date"
+            style="@style/TextAppearance.Squads.SubTitle.Dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
             android:text="Date"
-            android:textAppearance="?attr/textAppearanceBody1"
-            style="@style/TextAppearance.Squads.SubTitle.Dark"
-            android:backgroundTint="@color/colorPrimary" />
+            android:textAppearance="?attr/textAppearanceBody1" />
 
         <TextView
             android:id="@+id/time"
+            style="@style/TextAppearance.Squads.SubTitle.Dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
             android:text="Time"
-            android:textAppearance="?attr/textAppearanceBody1"
-            style="@style/TextAppearance.Squads.SubTitle.Dark"
-            android:backgroundTint="@color/colorPrimary" />
+            android:textAppearance="?attr/textAppearanceBody1" />
 
         <com.google.android.material.divider.MaterialDivider
             android:layout_width="match_parent"
@@ -82,11 +82,11 @@
 
         <TextView
             android:id="@+id/trainees"
+            style="@style/TextAppearance.Squads.SubTitle.Dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/trainees"
-            style="@style/TextAppearance.Squads.SubTitle.Dark"
-            android:backgroundTint="@color/colorPrimary"/>
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/trainees" />
 
         <com.google.android.material.divider.MaterialDivider
             android:layout_width="match_parent"
@@ -97,38 +97,35 @@
 
         <TextView
             android:id="@+id/desc"
+            style="@style/TextAppearance.Squads.Label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:backgroundTint="@color/colorPrimary"
             android:text="Description"
             android:textAppearance="?attr/textAppearanceBody1"
-            style="@style/TextAppearance.Squads.Label"
-            android:backgroundTint="@color/colorPrimary"
-            />
+            android:textColor="#263238" />
 
     </LinearLayout>
 
     <Button
         android:id="@+id/join_button"
-        style="@style/Widget.Material3.Button.IconButton.Filled"
+        style="@style/Widget.Squads.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:background="@color/colorAccent"
         android:backgroundTint="@color/colorPrimaryDark"
         android:clickable="true"
         android:text="@string/join_button"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.Squads.SubTitle"
-        android:textColor="@color/colorPrimary"
-        app:backgroundTint="@color/colorPrimaryDark"
         app:iconSize="30dp"
         app:iconTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="@color/colorAccent" />
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
     </layout>
