@@ -75,6 +75,7 @@
         </item>
         <item name="cornerFamily">rounded</item>
         <item name="cornerRadius">8dp</item>
+        <item name="minHeight">52dp</item>
     </style>
 
     <style name="Widget.Squads.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
@@ -103,7 +104,13 @@
         <item name="colorOnSurface">@color/colorPrimaryDark</item>
         <item name="backgroundColor">@color/colorPrimaryDark</item>
     </style>
+    <style name="Widget.MaterialComponents.BottomNavigationView.Colored" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundColor">@color/backgroundColor</item>
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
 
+
+    </style>
 
 
 </resources>
